@@ -37,6 +37,8 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class BlogController extends AbstractController
 {
+
+    
     /**
      * @Route("/", defaults={"page": "1", "_format"="html"}, methods={"GET"}, name="blog_index")
      * @Route("/rss.xml", defaults={"page": "1", "_format"="xml"}, methods={"GET"}, name="blog_rss")

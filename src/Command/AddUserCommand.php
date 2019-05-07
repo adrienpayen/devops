@@ -54,7 +54,6 @@ class AddUserCommand extends Command
      * @var SymfonyStyle
      */
     private $io;
-
     private $entityManager;
     private $passwordEncoder;
     private $validator;
